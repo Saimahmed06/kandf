@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    
+<div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div id="adminhead">Admin <span>signup</span></div>
+		</div>
+		<br>
+		<div class="login">
+				<input type="text" name="user" id="name-one" placeholder="resturant name"><br><br>
+	<input type="text" id="email-three" placeholder=" resturant email">
+  	<input type="text" id="number-three" placeholder=" resturant number">
+    <input type="password" name="" id="pass-three" placeholder="resturant passward"><br><br>
+    <input type="text" name="" id="country" placeholder="enter country">
+    <input type="text" name="" id="city" placeholder="enter city">
+    <br><br>
+    
+    <button onclick="admin()" id="submit-one">login</button><br><br>
+
+    <p id="cap">Already have a account<a href="./logintwo.html"> resturant login</a></p>
+     <p id="cap">Already have a account<a href="./login.html"> User login</a></p>
+    
+				
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<script>
+ 
+  var firebaseConfig = {
+    apiKey: "AIzaSyCgNPxfWqzfTTBFMhCTonpNniAllLmtjek",
+    authDomain: "kandf-foods.firebaseapp.com",
+    projectId: "kandf-foods",
+    storageBucket: "kandf-foods.appspot.com",
+    messagingSenderId: "957657277849",
+    appId: "1:957657277849:web:026dc2c03734f1ea96df08",
+    measurementId: "G-4MH614TM11"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

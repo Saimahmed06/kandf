@@ -1,0 +1,361 @@
+body{
+    background-image:url(./images/2.jpg)
+}
+
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+    border: solid 1px rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+.left-text-head{
+    color: rgb(143, 17, 17);
+    width: 100%;
+    margin-left: 10px;
+}
+a{
+    color:rgb(0, 0, 0);
+}
+.main1heading{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.header{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    color: white;
+    /* border:rgb(0, 0, 0) 1px solid; */
+}
+
+
+.main2{
+    display: none;
+}
+.queshead{
+    text-align: center;
+    color: black;
+}
+.answers{
+   text-align: center;
+    width: 100%;
+    border:rgb(0, 0, 0) solid 4px;
+}
+
+
+
+
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+
+  .nav{
+        width: 100%;
+
+    }
+  }
+.fa{
+    color: white;
+}
+#sign-one{
+    text-align: center;
+    margin-left: 70px;
+}
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 2px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+#submit-one{
+    background-color: rgb(187, 206, 235);
+    width: 150px;
+    margin-left: 55px;
+	box-shadow: 5px 5px 5px grey;
+}
+#fb{
+    background-color: rgb(57, 125, 235);
+     
+    margin-left: 55px;
+  
+}
+#submit{
+    background-color: rgb(57, 125, 235);
+    width: 150px;
+    margin-left: 55px;
+}
+.nav-link{
+	color: white !important;
+	font-weight: bold !important;
+	align-items: center;
+	padding-top: 20px;
+
+}
+.kandf{
+	color:white;
+}
+.brand{
+	width: 50px;
+	height: 50px;
+}
+.navbar{
+	background-color:#FF7F50 !important;
+}
+.fa-motorcycle,.fa-bars,.fa-location-arrow{
+	font-size: 33px !important;
+	color:#FF7F50 ;
+	margin-right: 10px;
+}
+
+.hhh{
+	color:#FF7F50  !important;
+	text-decoration: none !important;
+}
+.card1,.card2,.card3{
+	display: flex;
+	box-shadow: 2px 4px 5px gray;
+	width:300px;
+	height:80px ;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+	
+
+}
+.mainCard{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.mb-3{
+	justify-content: center;
+}
+
+.align-items-start{
+	display: flex;
+	justify-content: space-between;
+}
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+	  .card-body{
+		  color: black;
+	  }
+	  .mb-3{
+		  background-color:#FF7F50;
+	  }
+
+	  
+	  #cap{
+		  color: white;
+		  font-weight: bold;
+		  text-decoration:  none;
+		  font-size:15px;
+
+	  }
+	
+	 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+
+/* .row g-3{
+	width: 80px;
+} */
+
+/* col-md-6{
+	width: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  .card1,.card2,.card3{
+	  width: 100%;
+  }
+  .res1{
+	  width: 100%;
+
+  }
+  
+}
+/* @media screen and (min-width:400px ) {
+  .res1,.header,.login{
+	  width: 100%;
+  }
+  
+
+  } */
+  
+

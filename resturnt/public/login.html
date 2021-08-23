@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="res1">
+    <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>User <span>login</span></div>
+		</div>
+		<br>
+		<div class="login">
+				
+	<input type="text" id="email-two" placeholder="email">
+    <input type="password" name="" id="pass-two" placeholder="passward"><br><br>
+    <button onclick="login()" id="submit-one">login</button><br><br>
+    
+    <p id="cap">signup new user <a href="signup.html">Sign up</a></p>
+     <p id="cap">login as admin <a href="logintwo.html"> Resturant</a></p>
+				
+		</div>
+    </div>
+
+
+
+
+    
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<script>
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyCgNPxfWqzfTTBFMhCTonpNniAllLmtjek",
+    authDomain: "kandf-foods.firebaseapp.com",
+    projectId: "kandf-foods",
+    storageBucket: "kandf-foods.appspot.com",
+    messagingSenderId: "957657277849",
+    appId: "1:957657277849:web:026dc2c03734f1ea96df08",
+    measurementId: "G-4MH614TM11"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
